@@ -11,7 +11,7 @@ int main()
 /************* Parsing the Data First *************/
 Parse_The_Data("Employee_data.txt") ;
 /************ Find the Employee with the ID 130 ****/
-Found=Binary_search((Employee **)Emp_Data,12,&Index,0);
+Found=Binary_search((Employee **)Emp_Data,12,&Index,130);
 /************** Diplay all Elements*****/
 display();
 /****************** get the user division based on index*************/
